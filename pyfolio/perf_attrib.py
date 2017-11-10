@@ -321,7 +321,7 @@ def show_perf_attrib_stats(returns,
         create_perf_attrib_stats(perf_attrib_data, risk_exposures)
 
     percentage_formatter = '{:.2%}'.format
-    float_formatter = '{:,.3}'.format
+    float_formatter = '{:.2f}'.format
 
     summary_stats = perf_attrib_stats.loc[['Annualized Specific Return',
                                            'Annualized Common Return',
